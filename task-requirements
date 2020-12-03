@@ -1,0 +1,28 @@
+The goal of this assignment is to create an application that will allow users to search and bookmark their
+favorites Marvel characters. You should query the marvel API to search for characters
+(https://developer.marvel.com/). If you’re uncertain about any details of the project, feel free to render
+your own decisions.
+
+Functional Requirements
+- There should be no button to instantiate the search instead the search should be run and result
+displayed while the user is interacting with the search input.
+- Search result item can be bookmarked by the user, the bookmarked search item should be saved
+in the user local storage and displayed when the search input is empty.
+- Should limit to 20 result from the API Optional: Use pagination to allow user to
+navigate through all the results.
+- The characters should be displayed in a 4x5 Grid on Desktop, 2x10 Grid on Tablet, 1x20 Grid on
+Mobile.
+- Each item in the grid should display the image, name and bookmarked state of the character.
+- The image size may vary, but make sure the grid accommodates any image size and displays
+consistently, still keeping it responsive. Avoid stretching or squeezing the image instead scale
+and align it in the center. No white space should appear on the sides but the image can be
+cropped.
+Requirements
+- Use React library or Vanilla JS.
+- Styling should be written from scratch.
+- Ensure that the elements work and display correctly in the latest versions of all modern
+browsers.
+Project Delivery
+Create and provide access to a private repo on Gitlab/BitBucket/Github or send us the zip archive with
+the source code (should include instructions on how to run the application + a description of your
+solution where you explain your decisions, assumptions or limitations of the application).
